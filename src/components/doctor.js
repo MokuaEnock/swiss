@@ -1,3 +1,3 @@
 export default function Doctor() {
-  return <main></main>;
+  return <main>Doctors page</main>;
 }

@@ -1,7 +1,12 @@
 import "./App.css";
+import Doctor from "./components/doctor";
 
 function App() {
-  return <main></main>;
+  return (
+    <>
+      <Doctor />
+    </>
+  );
 }
 
 export default App;
