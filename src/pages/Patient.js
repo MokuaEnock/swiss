@@ -76,7 +76,9 @@ export default function Patient() {
             <textarea placeholder="Additional notes..." />
           </div>
 
-          <button type="submit" id="patient-submit"></button>
+          <button type="submit" id="patient-submit">
+            Submit
+          </button>
         </form>
       </section>
 

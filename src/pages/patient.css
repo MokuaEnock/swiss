@@ -1,7 +1,6 @@
 #patient-section {
   width: 77%;
   height: 100vh;
-  /* border: thin solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,20 +10,16 @@
 #patient-section > form {
   height: max-content;
   width: 100%;
-  border: thin solid black;
   overflow-y: scroll;
-  /* background-color: darkslategrey; */
 }
 
-#patient-section > form > * {
+#patient-section > form > div {
   width: 100%;
   margin-bottom: 1vw;
-  border: thin solid black;
 }
 
 #patient-bio {
   height: 10vw;
-  background-color: beige;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -32,15 +27,16 @@
 }
 
 #patient-bio > * {
-  border: thin solid black;
 }
 
 #patient-bio-image {
   width: 14%;
   height: 95%;
   border-radius: 50%;
+  margin-left: 1vw;
   display: flex;
   flex-direction: row;
+  background-color: aqua;
   align-items: center;
   justify-content: center;
 }
@@ -68,7 +64,6 @@
 }
 
 #patient-details > * {
-  border: thin solid black;
   font-size: 1.3vw;
 }
 
@@ -82,7 +77,6 @@
 }
 
 #patient-feeling > h4 {
-  border: thin solid black;
   width: 100%;
   height: 20%;
   display: flex;
@@ -174,10 +168,22 @@
 }
 
 #patient-notes > textarea :focus {
-  outline: thin solid black;
+  outline: thin solid transparent;
 }
 
-#doctor-aside {
+#patient-submit {
   width: 20%;
+  height: 4vw;
+  margin-left: 27vw;
+  border: thin solid aqua;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#doctor-aside {
+  width: 10%;
   height: 5%;
 }
