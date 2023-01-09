@@ -6,13 +6,15 @@ export default function Doctor() {
         <span className="doctor-links">Home</span>
         <span className="doctor-links">Patients</span>
         <span className="doctor-links">Profile</span>
-        {/* <span className="doctor-links"></span> */}
         <span id="doctor-logout">Log Out</span>
       </header>
 
       <section id="doctor-section">
         <div id="doctor-stats">
-          <span className="doctor-stat"></span>
+          <span className="doctor-stat">
+            <h3 className="doctor-stat-header">Patients</h3>
+            <p className="doctor-stat-par">1000</p>
+          </span>
           <span className="doctor-stat"></span>
           <span className="doctor-stat"></span>
           <span className="doctor-stat"></span>
