@@ -66,7 +66,10 @@ export default function Patient() {
               Aliquam tempus sapien sed neque convallis ultrices at a.
             </p>
           </div>
-          <div id="patient-bio"></div>
+          <div id="patient-disease">
+            <p>Possible disease:</p> &nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Possible diseases" />
+          </div>
 
           <button type="submit" id="patient-submit"></button>
         </form>
