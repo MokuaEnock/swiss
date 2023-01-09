@@ -28,8 +28,16 @@ export default function Doctor() {
               <button type="submit">Submit</button>
             </form>
           </span>
+
           <ul className="doctor-list">
-            <li className="doctor-patient"></li>
+            <li className="doctor-patient">
+              <span className="doctor-item-image"></span>
+              <span className="doctor-item-contact"></span>
+              <span className="doctor-item-age"></span>
+              <span className="doctor-item-sex"></span>
+              <span className="doctor-item-type"></span>
+              <span className="doctor-item-disease"></span>
+            </li>
             <li className="doctor-patient"></li>
             <li className="doctor-patient"></li>
             <li className="doctor-patient"></li>
@@ -37,6 +45,7 @@ export default function Doctor() {
             <li className="doctor-patient"></li>
             <li className="doctor-patient"></li>
           </ul>
+
           <div id="doctor-list-footer">
             <button id="doctor-back" className="doctor-nav">
               Back
