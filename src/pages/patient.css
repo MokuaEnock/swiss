@@ -27,7 +27,7 @@
 }
 
 #patient-bio-image {
-  width: 14%;
+  width: 13.5%;
   height: 95%;
   border-radius: 50%;
   margin-left: 1vw;
@@ -106,6 +106,31 @@
   justify-content: space-between;
   text-align: center;
 }
+
+#patient-allergies {
+  border: thin solid black;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+
+#patient-allergies > h4 {
+  width: 100%;
+  text-align: center;
+}
+
+#allergy-list {
+  width: 90%;
+}
+
+.allergy-item {
+  font-size: 1vw;
+}
+
 #patient-diagnosis {
   height: 12vw;
   display: flex;

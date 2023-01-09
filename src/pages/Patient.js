@@ -35,6 +35,17 @@ export default function Patient() {
             <span>Male</span>
             <span>Outpatient</span>
             <span>Malaria</span>
+            <span>BMI: 22.7</span>
+          </div>
+
+          <div id="patient-allergies">
+            <h4>Allergies</h4>
+            <ol id="allergy-list">
+              <li className="allergy-item">Lorem ipsum dolor sit amet.</li>
+              <li className="allergy-item">Lorem ipsum dolor sit amet.</li>
+              <li className="allergy-item">Lorem ipsum dolor sit amet.</li>
+              <li className="allergy-item">Lorem ipsum dolor sit amet.</li>
+            </ol>
           </div>
 
           <div id="patient-feeling">
