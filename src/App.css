@@ -194,11 +194,9 @@ input:focus {
   align-items: center;
   justify-content: space-evenly;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  /* box-shadow: 0.05vw 0.05vw 0.01vw rgb(128, 128, 128, .2); */
 }
 
 .doctor-patient > * {
-  /* border: thin solid black; */
   height: 100%;
 }
 
@@ -218,6 +216,7 @@ input:focus {
   width: 25%;
   display: flex;
   flex-direction: column;
+  border: thin solid black;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -250,16 +249,18 @@ input:focus {
   justify-content: space-evenly;
 }
 
-.doctor-item-contact h3 {
+.doctor-item-contact h4 {
   text-align: left;
+  border: thin solid black;
   width: 100%;
-  font-size: 1vw;
+  font-size: 1.3vw;
 }
 
 .doctor-item-contact p {
   text-align: left;
+  border: thin solid black;
   width: 100%;
-  font-size: 1.3vw;
+  font-size: 1vw;
 }
 
 #doctor-list-footer {

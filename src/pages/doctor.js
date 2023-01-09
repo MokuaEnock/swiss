@@ -33,7 +33,7 @@ export default function Doctor() {
             <li className="doctor-patient">
               <span className="doctor-item-image"></span>
               <span className="doctor-item-contact">
-                <h4>Enock Mokua Nyanchoga</h4>
+                <h4>Enock Mokua</h4>
                 <p>mokuaenock0@gmail.com</p>
               </span>
               <span className="doctor-item-age">27 years</span>
