@@ -1,0 +1,13 @@
+#patient-section {
+  width: 77%;
+  border: thin solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#patient-section > * {
+  width: 95%;
+  border: thin solid black;
+}

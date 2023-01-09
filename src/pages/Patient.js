@@ -10,7 +10,15 @@ export default function Patient() {
         <span id="doctor-logout">Log Out</span>
       </header>
 
-      <section id="doctor-section"></section>
+      <section id="patient-section">
+        <div id="patient-bio">
+
+        </div>
+        {/* <div id="patient-bio"></div>
+        <div id="patient-bio"></div>
+        <div id="patient-bio"></div>
+        <div id="patient-bio"></div> */}
+      </section>
 
       <aside id="doctor-aside"></aside>
     </main>
