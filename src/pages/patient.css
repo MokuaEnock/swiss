@@ -1,5 +1,6 @@
 #patient-section {
   width: 77%;
+  height: 100vh;
   border: thin solid black;
   display: flex;
   flex-direction: column;
@@ -7,13 +8,20 @@
   justify-content: space-between;
 }
 
-#patient-section > * {
+#patient-section > form {
+  height: max-content;
   width: 95%;
+  border: thin solid black;
+  background-color: darkslategrey;
+}
+
+#patient-section > form > * {
+  width: 100%;
   border: thin solid black;
 }
 
 #patient-bio {
-  height: 20%;
+  height: 20vw;
   background-color: beige;
   display: flex;
   flex-direction: row;
@@ -47,4 +55,22 @@
 #patient-bio-contact p {
   font-size: 1.3vw;
   font-weight: lighter;
+}
+
+#patient-details {
+  height: 9%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#patient-details > * {
+  border: thin solid black;
+  font-size: 1.3vw;
+}
+
+#doctor-aside {
+  width: 20%;
+  height: 5%;
 }

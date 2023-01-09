@@ -11,28 +11,33 @@ export default function Patient() {
       </header>
 
       <section id="patient-section">
-        <div id="patient-bio">
-          <span id="patient-bio-image">
-            <img src="#" alt="profile" />
-          </span>
+        <form>
+          <div id="patient-bio">
+            <span id="patient-bio-image">
+              <img src="#" alt="profile" />
+            </span>
 
-          <span id="patient-bio-contact">
-            <p>Enock Mokua Nyanchoga</p>
-            <p>mokuaenock0@gmail.com</p>
-            <p>Nairobi, Kenya</p>
-          </span>
-          <span id="patient-bio-"></span>
-          <span id="patient-bio-"></span>
-        </div>
-        <div id="patient-details">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        {/*<div id="patient-bio"></div>
-        <div id="patient-bio"></div>
-        <div id="patient-bio"></div> */}
+            <span id="patient-bio-contact">
+              <p>Enock Mokua Nyanchoga</p>
+              <p>mokuaenock0@gmail.com</p>
+              <p>+25470010000</p>
+            </span>
+            <span id="patient-bio-"></span>
+            <span id="patient-bio-"></span>
+          </div>
+          
+          <div id="patient-details">
+            <span>Nairobi, Kenya</span>
+            <span>Male</span>
+            <span>Outpatient</span>
+            <span>Malaria</span>
+          </div>
+          <div id="patient-bio"></div>
+          <div id="patient-bio"></div>
+          <div id="patient-bio"></div>
+
+          <button type="submit" id="patient-submit"></button>
+        </form>
       </section>
 
       <aside id="doctor-aside"></aside>
