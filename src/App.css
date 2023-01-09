@@ -95,6 +95,7 @@ body {
 .doctor-stat-header {
   width: 100%;
   height: 40%;
+  font-size: 2vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -110,6 +111,45 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+#doctor-container {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#doctor-container-header {
+  width: 100%;
+  height: 10%;
+  border: thin solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#doctor-title {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: thin solid black;
+}
+
+#doctor-search {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: thin solid black;
 }
 
 #doctor-aside {

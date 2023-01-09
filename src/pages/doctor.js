@@ -19,7 +19,16 @@ export default function Doctor() {
           <span className="doctor-stat"></span>
           <span className="doctor-stat"></span>
         </div>
-        <div id="doctor-container"></div>
+
+        <div id="doctor-container">
+          <span id="doctor-container-header">
+            <h2 id="doctor-title">Patients</h2>
+            <form id="doctor-search"></form>
+          </span>
+          <ul className="doctor-list">
+            <li className="doctor-patient"></li>
+          </ul>
+        </div>
       </section>
 
       <aside id="doctor-aside">aside</aside>
