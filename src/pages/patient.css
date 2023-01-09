@@ -87,7 +87,7 @@
 }
 
 #patient-feeling > p {
-  width: 100%;
+  width: 90%;
   height: 90%;
   font-size: 1vw;
   display: flex;
@@ -106,7 +106,7 @@
 }
 
 #patient-diagnosis > p {
-  width: 100%;
+  width: 90%;
   height: 90%;
   font-size: 1vw;
   display: flex;
@@ -182,6 +182,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-bottom: 2vw;
 }
 #doctor-aside {
   width: 10%;
