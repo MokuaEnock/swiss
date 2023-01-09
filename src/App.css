@@ -177,32 +177,73 @@ input:focus {
   list-style: none;
   height: 80%;
   width: 100%;
-}
-
-.doctor-patient {
-  border: thin solid black;
-  background-color: azure;
-  height: 12.3%;
-  margin-top: 0.5vw;
-  margin-bottom: 0.5vw;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
 }
 
+.doctor-patient {
+  /* border: thin solid black; */
+  background-color: azure;
+  height: 12.3%;
+  width: 98%;
+  border-radius: 0.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  /* box-shadow: 0.05vw 0.05vw 0.01vw rgb(128, 128, 128, .2); */
+}
+
 .doctor-patient > * {
-  border: thin solid black;
+  /* border: thin solid black; */
   height: 100%;
 }
 
 .doctor-item-image {
   width: 5%;
   border-radius: 50%;
+  background-color: blanchedalmond;
+}
+
+.doctor-item-image > img {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
 }
 
 .doctor-item-contact {
   width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.doctor-item-age {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.doctor-item-sex {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.doctor-item-type {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.doctor-item-disease {
+  width: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -36,10 +36,10 @@ export default function Doctor() {
                 <h4>Enock Mokua Nyanchoga</h4>
                 <p>mokuaenock0@gmail.com</p>
               </span>
-              <span className="doctor-item-age"></span>
-              <span className="doctor-item-sex"></span>
-              <span className="doctor-item-type"></span>
-              <span className="doctor-item-disease"></span>
+              <span className="doctor-item-age">27 years</span>
+              <span className="doctor-item-sex">Male</span>
+              <span className="doctor-item-type">Outpatient</span>
+              <span className="doctor-item-disease">Malaria</span>
             </li>
 
             <li className="doctor-patient"></li>
