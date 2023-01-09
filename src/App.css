@@ -33,3 +33,15 @@ body {
   justify-content: space-evenly;
   height: 100%;
 }
+
+#doctor-header {
+  width: 18%;
+}
+
+#doctor-section {
+  width: 77%;
+}
+
+#doctor-aside {
+  width: 5%;
+}
