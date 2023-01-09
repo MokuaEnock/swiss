@@ -22,7 +22,11 @@ export default function Patient() {
               <p>mokuaenock0@gmail.com</p>
               <p>+25470010000</p>
             </span>
-            <span id="patient-bio-"></span>
+            <span id="patient-bio-appointment">
+              <p>Appointment date: 22/01/2023</p>
+              <p>Appointment time: 14:00 hrs</p>
+              <p>Date Scheduled: 15/01/2023</p>
+            </span>
             <span id="patient-bio-"></span>
           </div>
 
@@ -66,6 +70,7 @@ export default function Patient() {
               Aliquam tempus sapien sed neque convallis ultrices at a.
             </p>
           </div>
+
           <div id="patient-disease">
             <p>Possible disease:</p> &nbsp;&nbsp;&nbsp;
             <input type="text" placeholder="Possible diseases" />
