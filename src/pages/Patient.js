@@ -71,6 +71,11 @@ export default function Patient() {
             <input type="text" placeholder="Possible diseases" />
           </div>
 
+          <div id="patient-notes">
+            <h4>Additional notes</h4>
+            <textarea placeholder="Additional notes..." />
+          </div>
+
           <button type="submit" id="patient-submit"></button>
         </form>
       </section>
