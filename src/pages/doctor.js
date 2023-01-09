@@ -30,7 +30,14 @@ export default function Doctor() {
           </span>
           <ul className="doctor-list">
             <li className="doctor-patient"></li>
+            <li className="doctor-patient"></li>
+            <li className="doctor-patient"></li>
+            <li className="doctor-patient"></li>
+            <li className="doctor-patient"></li>
+            <li className="doctor-patient"></li>
+            <li className="doctor-patient"></li>
           </ul>
+          <div id="doctor-list-footer"></div>
         </div>
       </section>
 
