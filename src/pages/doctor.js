@@ -13,11 +13,27 @@ export default function Doctor() {
         <div id="doctor-stats">
           <span className="doctor-stat">
             <h3 className="doctor-stat-header">Patients</h3>
-            <p className="doctor-stat-par">1000</p>
+            <span className="doctor-stat-par">
+              <p>1000</p>
+              <button>Sea All</button>
+            </span>
           </span>
-          <span className="doctor-stat"></span>
-          <span className="doctor-stat"></span>
-          <span className="doctor-stat"></span>
+
+          <span className="doctor-stat">
+            <h3 className="doctor-stat-header">In-Patient</h3>
+            <span className="doctor-stat-par">
+              <p>500</p>
+              <button>Sea All</button>
+            </span>
+          </span>
+
+          <span className="doctor-stat">
+            <h3 className="doctor-stat-header">Out-Patient</h3>
+            <span className="doctor-stat-par">
+              <p>500</p>
+              <button>Sea All</button>
+            </span>
+          </span>
         </div>
 
         <div id="doctor-container">
