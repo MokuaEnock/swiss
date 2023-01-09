@@ -23,7 +23,10 @@ export default function Doctor() {
         <div id="doctor-container">
           <span id="doctor-container-header">
             <h2 id="doctor-title">Patients</h2>
-            <form id="doctor-search"></form>
+            <form id="doctor-search">
+              <input type="text" placeholder="search ..." />
+              <button type="submit">Submit</button>
+            </form>
           </span>
           <ul className="doctor-list">
             <li className="doctor-patient"></li>

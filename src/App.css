@@ -152,6 +152,25 @@ body {
   border: thin solid black;
 }
 
+#doctor-search > input {
+  border: thin solid black;
+  font-size: 1.3vw;
+  width: 75%;
+  height: 75%;
+  text-align: center;
+}
+
+input:focus {
+  outline: thin solid black;
+}
+#doctor-search > button {
+  width: 25%;
+  border: thin solid black;
+  height: 80%;
+  font-size: 1.3vw;
+  background-color: aqua;
+}
+
 #doctor-aside {
   width: 5%;
 }
