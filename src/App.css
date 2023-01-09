@@ -112,9 +112,9 @@ body {
 }
 
 .doctor-stat-par button {
-  border: thin solid black;
-  height: 70%;
-  width: 35%;
+  border: thin solid transparent;
+  height: 60%;
+  width: 40%;
   background-color: aqua;
   border-radius: 4vw;
   font-size: 1vw;
@@ -158,7 +158,7 @@ body {
 }
 
 #doctor-search > input {
-  border: thin solid black;
+  border: thin solid aqua;
   font-size: 1.3vw;
   width: 75%;
   height: 75%;
@@ -166,12 +166,12 @@ body {
 }
 
 input:focus {
-  outline: thin solid black;
+  outline: thin solid transparent;
 }
 
 #doctor-search > button {
   width: 25%;
-  border: thin solid black;
+  border: thin solid aqua;
   height: 80%;
   font-size: 1.3vw;
   background-color: aqua;

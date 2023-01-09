@@ -15,7 +15,7 @@ export default function Doctor() {
             <h3 className="doctor-stat-header">Patients</h3>
             <span className="doctor-stat-par">
               <p>1000</p>
-              <button>Sea All</button>
+              <button>See All</button>
             </span>
           </span>
 
@@ -23,7 +23,7 @@ export default function Doctor() {
             <h3 className="doctor-stat-header">In-Patient</h3>
             <span className="doctor-stat-par">
               <p>500</p>
-              <button>Sea All</button>
+              <button>See All</button>
             </span>
           </span>
 
@@ -31,7 +31,7 @@ export default function Doctor() {
             <h3 className="doctor-stat-header">Out-Patient</h3>
             <span className="doctor-stat-par">
               <p>500</p>
-              <button>Sea All</button>
+              <button>See All</button>
             </span>
           </span>
         </div>
