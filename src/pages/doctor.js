@@ -42,12 +42,72 @@ export default function Doctor() {
               <span className="doctor-item-disease">Malaria</span>
             </li>
 
-            <li className="doctor-patient"></li>
-            <li className="doctor-patient"></li>
-            <li className="doctor-patient"></li>
-            <li className="doctor-patient"></li>
-            <li className="doctor-patient"></li>
-            <li className="doctor-patient"></li>
+            <li className="doctor-patient">
+              <span className="doctor-item-image"></span>
+              <span className="doctor-item-contact">
+                <h4>Enock Mokua</h4>
+                <p>mokuaenock0@gmail.com</p>
+              </span>
+              <span className="doctor-item-age">27 years</span>
+              <span className="doctor-item-sex">Male</span>
+              <span className="doctor-item-type">Outpatient</span>
+              <span className="doctor-item-disease">Malaria</span>
+            </li>
+            <li className="doctor-patient">
+              <span className="doctor-item-image"></span>
+              <span className="doctor-item-contact">
+                <h4>Enock Mokua</h4>
+                <p>mokuaenock0@gmail.com</p>
+              </span>
+              <span className="doctor-item-age">27 years</span>
+              <span className="doctor-item-sex">Male</span>
+              <span className="doctor-item-type">Outpatient</span>
+              <span className="doctor-item-disease">Malaria</span>
+            </li>
+            <li className="doctor-patient">
+              <span className="doctor-item-image"></span>
+              <span className="doctor-item-contact">
+                <h4>Enock Mokua</h4>
+                <p>mokuaenock0@gmail.com</p>
+              </span>
+              <span className="doctor-item-age">27 years</span>
+              <span className="doctor-item-sex">Male</span>
+              <span className="doctor-item-type">Outpatient</span>
+              <span className="doctor-item-disease">Malaria</span>
+            </li>
+            <li className="doctor-patient">
+              <span className="doctor-item-image"></span>
+              <span className="doctor-item-contact">
+                <h4>Enock Mokua</h4>
+                <p>mokuaenock0@gmail.com</p>
+              </span>
+              <span className="doctor-item-age">27 years</span>
+              <span className="doctor-item-sex">Male</span>
+              <span className="doctor-item-type">Outpatient</span>
+              <span className="doctor-item-disease">Malaria</span>
+            </li>
+            <li className="doctor-patient">
+              <span className="doctor-item-image"></span>
+              <span className="doctor-item-contact">
+                <h4>Enock Mokua</h4>
+                <p>mokuaenock0@gmail.com</p>
+              </span>
+              <span className="doctor-item-age">27 years</span>
+              <span className="doctor-item-sex">Male</span>
+              <span className="doctor-item-type">Outpatient</span>
+              <span className="doctor-item-disease">Malaria</span>
+            </li>
+            <li className="doctor-patient">
+              <span className="doctor-item-image"></span>
+              <span className="doctor-item-contact">
+                <h4>Enock Mokua</h4>
+                <p>mokuaenock0@gmail.com</p>
+              </span>
+              <span className="doctor-item-age">27 years</span>
+              <span className="doctor-item-sex">Male</span>
+              <span className="doctor-item-type">Outpatient</span>
+              <span className="doctor-item-disease">Malaria</span>
+            </li>
           </ul>
 
           <div id="doctor-list-footer">

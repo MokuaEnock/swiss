@@ -184,8 +184,6 @@ input:focus {
 }
 
 .doctor-patient {
-  /* border: thin solid black; */
-  background-color: azure;
   height: 12.3%;
   width: 98%;
   border-radius: 0.5vw;
@@ -203,7 +201,7 @@ input:focus {
 .doctor-item-image {
   width: 5%;
   border-radius: 50%;
-  background-color: blanchedalmond;
+  background-color: aqua;
 }
 
 .doctor-item-image > img {
@@ -216,7 +214,6 @@ input:focus {
   width: 25%;
   display: flex;
   flex-direction: column;
-  border: thin solid black;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -224,6 +221,7 @@ input:focus {
   width: 10%;
   display: flex;
   flex-direction: column;
+  font-size: 1.2vw;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -231,6 +229,7 @@ input:focus {
   width: 10%;
   display: flex;
   flex-direction: column;
+  font-size: 1.2vw;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -239,46 +238,46 @@ input:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 1.2vw;
   justify-content: space-evenly;
 }
 .doctor-item-disease {
   width: 10%;
   display: flex;
   flex-direction: column;
+  font-size: 1.2vw;
   align-items: center;
   justify-content: space-evenly;
 }
 
 .doctor-item-contact h4 {
   text-align: left;
-  border: thin solid black;
   width: 100%;
   font-size: 1.3vw;
 }
 
 .doctor-item-contact p {
   text-align: left;
-  border: thin solid black;
   width: 100%;
   font-size: 1vw;
 }
 
 #doctor-list-footer {
-  /* background-color: blue; */
   width: 100%;
   height: 10%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  border: thin solid black;
 }
 
 .doctor-nav {
-  border: thin solid black;
+  border: thin solid transparent;
   background-color: aqua;
-  height: 90%;
+  height: 70%;
   width: 10%;
+  font-size: 1.3vw;
+  border-radius: 5vw;
   margin-left: 1vw;
   margin-right: 1vw;
 }
