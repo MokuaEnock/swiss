@@ -12,10 +12,25 @@ export default function Patient() {
 
       <section id="patient-section">
         <div id="patient-bio">
+          <span id="patient-bio-image">
+            <img src="#" alt="profile" />
+          </span>
 
+          <span id="patient-bio-contact">
+            <p>Enock Mokua Nyanchoga</p>
+            <p>mokuaenock0@gmail.com</p>
+            <p>Nairobi, Kenya</p>
+          </span>
+          <span id="patient-bio-"></span>
+          <span id="patient-bio-"></span>
         </div>
-        {/* <div id="patient-bio"></div>
-        <div id="patient-bio"></div>
+        <div id="patient-details">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        {/*<div id="patient-bio"></div>
         <div id="patient-bio"></div>
         <div id="patient-bio"></div> */}
       </section>

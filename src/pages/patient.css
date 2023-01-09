@@ -11,3 +11,40 @@
   width: 95%;
   border: thin solid black;
 }
+
+#patient-bio {
+  height: 20%;
+  background-color: beige;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#patient-bio > * {
+  border: thin solid black;
+}
+
+#patient-bio-image {
+  width: 13.5%;
+  height: 95%;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#patient-bio-contact {
+  height: 90%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+#patient-bio-contact p {
+  font-size: 1.3vw;
+  font-weight: lighter;
+}
