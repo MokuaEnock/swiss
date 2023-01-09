@@ -32,12 +32,16 @@ export default function Doctor() {
           <ul className="doctor-list">
             <li className="doctor-patient">
               <span className="doctor-item-image"></span>
-              <span className="doctor-item-contact"></span>
+              <span className="doctor-item-contact">
+                <h4>Enock Mokua Nyanchoga</h4>
+                <p>mokuaenock0@gmail.com</p>
+              </span>
               <span className="doctor-item-age"></span>
               <span className="doctor-item-sex"></span>
               <span className="doctor-item-type"></span>
               <span className="doctor-item-disease"></span>
             </li>
+
             <li className="doctor-patient"></li>
             <li className="doctor-patient"></li>
             <li className="doctor-patient"></li>
