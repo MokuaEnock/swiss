@@ -37,11 +37,18 @@ export default function Doctor() {
             <li className="doctor-patient"></li>
             <li className="doctor-patient"></li>
           </ul>
-          <div id="doctor-list-footer"></div>
+          <div id="doctor-list-footer">
+            <button id="doctor-back" className="doctor-nav">
+              Back
+            </button>
+            <button id="doctor-next" className="doctor-nav">
+              Next
+            </button>
+          </div>
         </div>
       </section>
 
-      <aside id="doctor-aside">aside</aside>
+      <aside id="doctor-aside"></aside>
     </main>
   );
 }

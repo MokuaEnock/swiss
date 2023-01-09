@@ -181,16 +181,30 @@ input:focus {
 
 .doctor-patient {
   border: thin solid black;
-  background-color: bisque;
+  background-color: azure;
   height: 12.3%;
   margin-top: 0.5vw;
   margin-bottom: 0.5vw;
 }
 
 #doctor-list-footer {
-  background-color: blue;
+  /* background-color: blue; */
   width: 100%;
   height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: thin solid black;
+}
+
+.doctor-nav {
+  border: thin solid black;
+  background-color: aqua;
+  height: 90%;
+  width: 10%;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 #doctor-aside {
