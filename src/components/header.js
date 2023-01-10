@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header id="header">
       <div id="header-logo">
-        <span></span>
+        <Link to="/">Logo</Link>
       </div>
 
       <div id="header-container">

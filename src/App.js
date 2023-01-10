@@ -16,6 +16,7 @@ function App() {
   return (
     <Router>
       <Header />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/patient" element={<Patient />} />
@@ -26,10 +27,9 @@ function App() {
           <Route path=":id" element={<DoctorView />} />
           <Route path="search" element={<DoctorSearch />} />
           <Route path="list" element={<DoctorList />} />
-          {/* <Route path=":id" element={<DoctorView />} /> */}
-          {/* <Route path=":id" element={<DoctorView />} /> */}
         </Route>
       </Routes>
+
       <Footer />
     </Router>
   );
