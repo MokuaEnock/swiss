@@ -9,10 +9,13 @@ import Login from "./components/login/login";
 import Signup from "./components/signup/signup";
 import DoctorSearch from "./components/doctor/doctorsearch";
 import DoctorList from "./components/doctor/doctorlist";
+import Header from "./components/header";
+import Footer from "./components/aside";
 
 function App() {
   return (
     <Router>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/patient" element={<Patient />} />
@@ -27,6 +30,7 @@ function App() {
           {/* <Route path=":id" element={<DoctorView />} /> */}
         </Route>
       </Routes>
+      <Footer />
     </Router>
   );
 }
