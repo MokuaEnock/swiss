@@ -29,11 +29,12 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border: thin solid black;
+  background-color: blue;
+  /* border: thin solid black; */
 }
 
 #header-container {
-  width: 50%;
+  width: 60%;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -43,9 +44,11 @@ header {
 
 #header-container > * {
   text-decoration: none;
-  width: 20%;
+  width: 16%;
   height: 60%;
-  border: thin solid black;
+  color: white;
+  font-size: 1.3vw;
+  /* border: thin solid black; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -55,7 +58,7 @@ header {
 #header-auth {
   width: 20%;
   height: 100%;
-  border: thin solid black;
+  /* border: thin solid black; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -63,7 +66,7 @@ header {
 }
 
 #header-auth > * {
-  border: thin solid;
+  /* border: thin solid black; */
   width: 60%;
   height: 70%;
   display: flex;
@@ -71,6 +74,18 @@ header {
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  background-color: aliceblue;
+  color: blue;
+}
+
+#header-logo {
+  width: 20%;
+  border: thin solid black;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
