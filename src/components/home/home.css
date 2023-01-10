@@ -30,11 +30,51 @@
   justify-content: space-evenly;
 }
 
+.services * {
+  border: thin solid black;
+}
+
 .services-header {
-  width: 100%;
+  width: 30%;
   height: 3vw;
+  font-size: 2vw;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.services-container {
+  width: 100%;
+  height: 20vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.services-card {
+  height: 90%;
+  background-color: aquamarine;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.services-footer {
+  height: 2vw;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-footer-span {
+  height: 1vw;
+  width: 1vw;
+  border-radius: 50%;
+  margin-left: 0.3vw;
 }
