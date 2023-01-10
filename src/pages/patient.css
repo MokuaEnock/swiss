@@ -107,7 +107,7 @@
   text-align: center;
 }
 
-#patient-allergies {
+.patient-allergies {
   border: thin solid black;
   width: 100%;
   height: max-content;
@@ -118,7 +118,7 @@
   text-align: left;
 }
 
-#patient-allergies > h4 {
+.patient-allergies > h4 {
   width: 100%;
   text-align: center;
 }

@@ -29,7 +29,6 @@ export default function Patient() {
             </span>
             <span id="patient-bio-"></span>
           </div>
-
           <div id="patient-details">
             <span>Nairobi, Kenya</span>
             <span>Male</span>
@@ -38,7 +37,7 @@ export default function Patient() {
             <span>BMI: 22.7</span>
           </div>
 
-          <div id="patient-allergies">
+          <div className="patient-allergies">
             <h4>Allergies</h4>
             <ol id="allergy-list">
               <li className="allergy-item">Lorem ipsum dolor sit amet.</li>
@@ -48,6 +47,25 @@ export default function Patient() {
             </ol>
           </div>
 
+          <div className="patient-allergies">
+            <h4>Current conditions</h4>
+            <ol id="allergy-list">
+              <li className="allergy-item">Lorem ipsum dolor sit amet.</li>
+              <li className="allergy-item">Lorem ipsum dolor sit amet.</li>
+              <li className="allergy-item">Lorem ipsum dolor sit amet.</li>
+              <li className="allergy-item">Lorem ipsum dolor sit amet.</li>
+            </ol>
+          </div>
+
+          <div className="patient-allergies">
+            <h4>Current Medication</h4>
+            <ol id="allergy-list">
+              <li className="allergy-item">Lorem ipsum dolor sit amet.</li>
+              <li className="allergy-item">Lorem ipsum dolor sit amet.</li>
+              <li className="allergy-item">Lorem ipsum dolor sit amet.</li>
+              <li className="allergy-item">Lorem ipsum dolor sit amet.</li>
+            </ol>
+          </div>
           <div id="patient-feeling">
             <h4>Patient's feeling</h4>
             <p>
@@ -64,7 +82,6 @@ export default function Patient() {
               Aliquam tempus sapien sed neque convallis ultrices at a.
             </p>
           </div>
-
           <div id="patient-diagnosis">
             <h4>Doctors Diagnosis</h4>
             <p>
@@ -81,17 +98,14 @@ export default function Patient() {
               Aliquam tempus sapien sed neque convallis ultrices at a.
             </p>
           </div>
-
           <div id="patient-disease">
             <p>Possible disease:</p> &nbsp;&nbsp;&nbsp;
             <input type="text" placeholder="Possible diseases" />
           </div>
-
           <div id="patient-notes">
             <h4>Additional notes</h4>
             <textarea placeholder="Additional notes..." />
           </div>
-
           <button type="submit" id="patient-submit">
             Submit
           </button>
