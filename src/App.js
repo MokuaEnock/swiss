@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/doctor" element={<Doctor />}>
           <Header />
-          <Route path="/doctor/:userId" element={Patient} />
+          <Route path=":id" element={Patient} />
           <Aside />
         </Route>
       </Routes>

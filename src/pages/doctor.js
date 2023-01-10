@@ -1,4 +1,9 @@
+import { useNavigate } from "react-router-dom";
+
 export default function Doctor() {
+  let navigate = useNavigate();
+
+
   return (
     <main id="doctor">
       <header id="doctor-header">
