@@ -8,6 +8,7 @@ import Admin from "./components/admin/admin";
 import Login from "./components/login/login";
 import Signup from "./components/signup/signup";
 import DoctorSearch from "./components/doctor/doctorsearch";
+import DoctorList from "./components/doctor/doctorlist";
 
 function App() {
   return (
