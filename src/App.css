@@ -151,8 +151,9 @@ footer > div {
   align-items: center;
 }
 
-.footer-span > a {
-  font-size: 1.3vw;
+.footer-span > a,
+.footer-span > p {
+  font-size: 1.2vw;
   text-decoration: none;
 }
 
