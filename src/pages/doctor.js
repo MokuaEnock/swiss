@@ -10,7 +10,7 @@ export default function Doctor() {
         className="doctor-patient"
         key={e.id}
         onClick={() => {
-          navigate(`doctor/${e.id}`);
+          navigate(`/doctor/${e.id}`);
         }}
       >
         <span className="doctor-item-image"></span>
