@@ -1,3 +1,3 @@
 export default function DoctorList(){
-    return <main>DOctor List</main>
+    return <main>Doctor List</main>
 }
