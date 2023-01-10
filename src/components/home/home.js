@@ -1,4 +1,6 @@
 import React from "react";
+import "./home.css";
+
 import MainSection from "./mainsection";
 
 export default function Home() {
