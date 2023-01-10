@@ -1,3 +1,3 @@
-export default function Aside() {
-  return <aside id="doctor-aside"></aside>;
+export default function Footer() {
+  return <footer id="doctor-aside"></footer>;
 }

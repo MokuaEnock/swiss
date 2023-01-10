@@ -22,3 +22,6 @@ body {
   align-items: center;
 }
 
+main {
+  width: 100vw;
+}
