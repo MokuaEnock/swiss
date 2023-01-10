@@ -30,11 +30,21 @@ export default function Patient() {
             <span id="patient-bio-"></span>
           </div>
           <div id="patient-details">
-            <span>Nairobi, Kenya</span>
-            <span>Male</span>
-            <span>Outpatient</span>
-            <span>Malaria</span>
-            <span>BMI: 22.7</span>
+            <span className="details" id="detail">
+              Nairobi, Kenya
+            </span>
+            <span className="details" id="detail">
+              Male
+            </span>
+            <span className="details" id="detail">
+              Outpatient
+            </span>
+            <span className="details" id="detail">
+              Malaria
+            </span>
+            <span className="details" id="detail">
+              BMI: 22.7
+            </span>
           </div>
 
           <div className="patient-allergies">
