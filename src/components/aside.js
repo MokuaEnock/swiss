@@ -6,7 +6,9 @@ export default function Footer() {
       <div>
         <div className="footer-header"></div>
         <div className="footer-container">
-          <span className="footer-span"></span>
+          <span className="footer-span">
+            <img src="" alt="logo" id="footer-image" />
+          </span>
           <span className="footer-span">
             <h5>About</h5>
             <Link>Doctors</Link>

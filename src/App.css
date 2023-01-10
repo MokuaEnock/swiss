@@ -105,7 +105,7 @@ footer {
 }
 
 footer * {
-  border: thin solid black;
+  /* border: thin solid black; */
   color: white;
 }
 
@@ -135,8 +135,12 @@ footer > div {
   height: 95%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
+}
+
+#footer-image {
+  border: thin solid black;
 }
 
 .footer-span > h5 {
@@ -144,11 +148,6 @@ footer > div {
   height: 20%;
   font-size: 1.5vw;
   font-weight: bold;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer-span > a,
