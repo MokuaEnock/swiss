@@ -5,6 +5,8 @@ import DoctorView from "./components/doctor/Patient";
 import Doctor from "./components/doctor/doctor";
 import Patient from "./components/patient/patient";
 import Admin from "./components/admin/admin";
+import Login from "./components/login/login";
+import Signup from "./components/signup/signup";
 
 function App() {
   return (
