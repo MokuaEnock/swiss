@@ -3,6 +3,7 @@ import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import Home from "./components/home/home";
 import DoctorView from "./components/doctor/Patient";
 import Doctor from "./components/doctor/doctor";
+import Patient from "./components/patient/patient";
 
 function App() {
   return (
