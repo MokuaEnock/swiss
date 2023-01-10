@@ -9,13 +9,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/doctor" element={<Doctor />}>
-          <Header />
-          <Route path=":id" element={Patient} />
-          <Aside />
-        </Route>
+        <Route path="/doctor" element={<Doctor />} />
+        <Route path="/patient" element={Patient} />
       </Routes>
-      {/* <Doctor /> */}
     </BrowserRouter>
   );
 }
