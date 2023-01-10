@@ -7,6 +7,7 @@ import Patient from "./components/patient/patient";
 import Admin from "./components/admin/admin";
 import Login from "./components/login/login";
 import Signup from "./components/signup/signup";
+import DoctorSearch from "./components/doctor/doctorsearch";
 
 function App() {
   return (
@@ -19,6 +20,10 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/doctor" element={<Doctor />}>
           <Route path=":id" element={<DoctorView />} />
+          <Route path="search" element={<DoctorSearch />} />
+          <Route path="list" element={<DoctorList />} />
+          {/* <Route path=":id" element={<DoctorView />} /> */}
+          {/* <Route path=":id" element={<DoctorView />} /> */}
         </Route>
       </Routes>
     </Router>
