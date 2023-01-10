@@ -5,6 +5,24 @@ export default function Doctor() {
   let navigate = useNavigate();
   console.log(Patientsdata);
 
+  let patients = Patientsdata.map((e) => {
+    return (
+      <li className="doctor-patient" key={e.id}>
+        <span className="doctor-item-image"></span>
+        <span className="doctor-item-contact">
+          <h4>{e.name}</h4>
+          <p>mokuaenock0@gmail.com</p>
+        </span>
+        <span className="doctor-item-age">27 years</span>
+        <span className="doctor-item-sex">Male</span>
+        <span className="doctor-item-type">Outpatient</span>
+        <span className="doctor-item-disease">Malaria</span>
+      </li>
+    );
+  });
+
+  console.log(patients);
+
   return (
     <main id="doctor">
       <header id="doctor-header">
@@ -51,86 +69,7 @@ export default function Doctor() {
             </form>
           </span>
 
-          <ul className="doctor-list">
-            <li className="doctor-patient">
-              <span className="doctor-item-image"></span>
-              <span className="doctor-item-contact">
-                <h4>Enock Mokua</h4>
-                <p>mokuaenock0@gmail.com</p>
-              </span>
-              <span className="doctor-item-age">27 years</span>
-              <span className="doctor-item-sex">Male</span>
-              <span className="doctor-item-type">Outpatient</span>
-              <span className="doctor-item-disease">Malaria</span>
-            </li>
-
-            <li className="doctor-patient">
-              <span className="doctor-item-image"></span>
-              <span className="doctor-item-contact">
-                <h4>Enock Mokua</h4>
-                <p>mokuaenock0@gmail.com</p>
-              </span>
-              <span className="doctor-item-age">27 years</span>
-              <span className="doctor-item-sex">Male</span>
-              <span className="doctor-item-type">Outpatient</span>
-              <span className="doctor-item-disease">Malaria</span>
-            </li>
-            <li className="doctor-patient">
-              <span className="doctor-item-image"></span>
-              <span className="doctor-item-contact">
-                <h4>Enock Mokua</h4>
-                <p>mokuaenock0@gmail.com</p>
-              </span>
-              <span className="doctor-item-age">27 years</span>
-              <span className="doctor-item-sex">Male</span>
-              <span className="doctor-item-type">Outpatient</span>
-              <span className="doctor-item-disease">Malaria</span>
-            </li>
-            <li className="doctor-patient">
-              <span className="doctor-item-image"></span>
-              <span className="doctor-item-contact">
-                <h4>Enock Mokua</h4>
-                <p>mokuaenock0@gmail.com</p>
-              </span>
-              <span className="doctor-item-age">27 years</span>
-              <span className="doctor-item-sex">Male</span>
-              <span className="doctor-item-type">Outpatient</span>
-              <span className="doctor-item-disease">Malaria</span>
-            </li>
-            <li className="doctor-patient">
-              <span className="doctor-item-image"></span>
-              <span className="doctor-item-contact">
-                <h4>Enock Mokua</h4>
-                <p>mokuaenock0@gmail.com</p>
-              </span>
-              <span className="doctor-item-age">27 years</span>
-              <span className="doctor-item-sex">Male</span>
-              <span className="doctor-item-type">Outpatient</span>
-              <span className="doctor-item-disease">Malaria</span>
-            </li>
-            <li className="doctor-patient">
-              <span className="doctor-item-image"></span>
-              <span className="doctor-item-contact">
-                <h4>Enock Mokua</h4>
-                <p>mokuaenock0@gmail.com</p>
-              </span>
-              <span className="doctor-item-age">27 years</span>
-              <span className="doctor-item-sex">Male</span>
-              <span className="doctor-item-type">Outpatient</span>
-              <span className="doctor-item-disease">Malaria</span>
-            </li>
-            <li className="doctor-patient">
-              <span className="doctor-item-image"></span>
-              <span className="doctor-item-contact">
-                <h4>Enock Mokua</h4>
-                <p>mokuaenock0@gmail.com</p>
-              </span>
-              <span className="doctor-item-age">27 years</span>
-              <span className="doctor-item-sex">Male</span>
-              <span className="doctor-item-type">Outpatient</span>
-              <span className="doctor-item-disease">Malaria</span>
-            </li>
-          </ul>
+          <ul className="doctor-list">{patients}</ul>
 
           <div id="doctor-list-footer">
             <button id="doctor-back" className="doctor-nav">
