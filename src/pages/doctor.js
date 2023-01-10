@@ -3,11 +3,16 @@ import { Patientsdata } from "../data";
 
 export default function Doctor() {
   let navigate = useNavigate();
-  console.log(Patientsdata);
 
   let patients = Patientsdata.map((e) => {
     return (
-      <li className="doctor-patient" key={e.id}>
+      <li
+        className="doctor-patient"
+        key={e.id}
+        onClick={() => {
+          navigate(`doctor/${e.id}`);
+        }}
+      >
         <span className="doctor-item-image"></span>
         <span className="doctor-item-contact">
           <h4>{e.name}</h4>
@@ -20,8 +25,6 @@ export default function Doctor() {
       </li>
     );
   });
-
-  console.log(patients);
 
   return (
     <main id="doctor">
