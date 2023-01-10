@@ -30,7 +30,6 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: blue;
-  /* border: thin solid black; */
 }
 
 #header-container {
@@ -44,11 +43,10 @@ header {
 
 #header-container > * {
   text-decoration: none;
-  width: 16%;
-  height: 60%;
-  color: white;
+  background-color: aliceblue;
+  padding: 0.3vw;
+  color: blue;
   font-size: 1.3vw;
-  /* border: thin solid black; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -58,7 +56,6 @@ header {
 #header-auth {
   width: 20%;
   height: 100%;
-  /* border: thin solid black; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -66,7 +63,6 @@ header {
 }
 
 #header-auth > * {
-  /* border: thin solid black; */
   width: 60%;
   height: 70%;
   display: flex;
@@ -80,7 +76,8 @@ header {
 
 #header-logo {
   width: 20%;
-  border: thin solid black;
+  background-color: aliceblue;
+  color: blue;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -88,6 +85,9 @@ header {
   align-items: center;
 }
 
+#header-logo > * {
+  text-decoration: none;
+}
 main {
   width: 100%;
   min-height: 45vw;
