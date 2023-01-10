@@ -1,8 +1,7 @@
 import "./App.css";
-import Doctor from "./pages/doctor";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
-import Patient from "./pages/Patient";
-import Home from "./pages/home";
+
+
 function App() {
   return (
     <Router>
