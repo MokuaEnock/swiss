@@ -10,12 +10,12 @@ export default function Header() {
 
       <div id="header-container">
         <Link to="/patient">Patient</Link>
-        <Link to="/doctor">Patient</Link>
-        <Link to="/patient">Patient</Link>
+        <Link to="/doctor">Doctor</Link>
+        {/* <Link to="/patient">Patient</Link> */}
       </div>
 
       <div id="header-auth">
-        <Link to="/signup">Patient</Link>
+        <Link to="/signup">Sign Up</Link>
       </div>
     </header>
   );
