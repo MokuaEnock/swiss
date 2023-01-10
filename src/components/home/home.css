@@ -79,3 +79,12 @@
   margin-left: 0.3vw;
 }
 
+.doctor-card {
+  height: 95%;
+  background-color: aquamarine;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
