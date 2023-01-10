@@ -1,8 +1,8 @@
 import "./patient.css";
 // import { useParams } from "react-router-dom";
 
-export default function Patient() {
-//   const { id } = useParams();
+export default function DoctorView() {
+  //   const { id } = useParams();
   return (
     <main id="doctor">
       <header id="doctor-header">

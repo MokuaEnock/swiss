@@ -1,6 +1,8 @@
 import "./App.css";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
-
+import Home from "./components/home/home";
+import DoctorView from "./components/doctor/Patient";
+import Doctor from "./components/doctor/doctor";
 
 function App() {
   return (
@@ -12,7 +14,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/doctor" element={<Doctor />}>
-          <Route path=":id" element={<Patient />} />
+          <Route path=":id" element={<DoctorView />} />
         </Route>
       </Routes>
     </Router>

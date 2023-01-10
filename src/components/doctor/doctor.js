@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Patientsdata } from "../../data";
+import React from "react";
 
 export default function Doctor() {
   let navigate = useNavigate();
