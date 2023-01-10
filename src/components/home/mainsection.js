@@ -20,6 +20,7 @@ export default function MainSection() {
           <img src="#" alt="home" />
         </span>
       </div>
+      
       <div className="main-section-cont" id="main-section-cont-image">
         <img src="#" alt="doctor" />
       </div>
