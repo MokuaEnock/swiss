@@ -4,6 +4,7 @@ import Home from "./components/home/home";
 import DoctorView from "./components/doctor/Patient";
 import Doctor from "./components/doctor/doctor";
 import Patient from "./components/patient/patient";
+import Admin from "./components/admin/admin";
 
 function App() {
   return (
