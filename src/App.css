@@ -29,7 +29,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: blue;
+  background-color: #30ba8f;
 }
 
 #header-container {
@@ -43,9 +43,8 @@ header {
 
 #header-container > * {
   text-decoration: none;
-  background-color: aliceblue;
   padding: 0.3vw;
-  color: blue;
+  color: white;
   font-size: 1.3vw;
   display: flex;
   flex-direction: row;
@@ -71,14 +70,14 @@ header {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  background-color: aliceblue;
-  color: blue;
+  background-color: white;
+  color: #30ba8f;
 }
 
 #header-logo {
   width: 20%;
-  background-color: aliceblue;
-  color: blue;
+  background-color: white;
+  color: #30ba8f;
   height: 100%;
   display: flex;
   flex-direction: row;
