@@ -120,7 +120,6 @@ footer > div {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  border: thin solid black;
 }
 
 #letter-header {
@@ -144,7 +143,6 @@ footer > div {
 #letter-form {
   width: 30%;
   height: 100%;
-  color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -153,6 +151,8 @@ footer > div {
 
 #letter-form > input {
   width: 70%;
+  text-align: center;
+  font-size: 1vw;
   height: 70%;
   color: black;
   border: thin solid #30ba8f;
@@ -185,7 +185,7 @@ footer > div {
 }
 
 #footer-image {
-  border: thin solid black;
+  /* border: thin solid black; */
 }
 
 .footer-span > h5 {
