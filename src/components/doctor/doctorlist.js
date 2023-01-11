@@ -13,18 +13,14 @@ export default function DoctorList() {
           navigate(`/doctor/${e.id}`);
         }}
       >
-        <span className="doctor-item-image"></span>
-        <span className="doctor-item-contact">
-          <h4>{e.name}</h4>
-          <p>mokuaenock0@gmail.com</p>
-        </span>
-        <span className="doctor-item-age">27 years</span>
+        <span className="doctor-item-name">{e.name}</span>
+        <span className="doctor-item-email">mok@gmail.com</span>
+        <span className="doctor-item-age">25</span>
         <span className="doctor-item-sex">Male</span>
-        <span className="doctor-item-type">Outpatient</span>
-        <span className="doctor-item-disease">Malaria</span>
+        <span className="doctor-item-bmi">19</span>
       </li>
     );
   });
 
-  return <ul>{patients}</ul>;
+  return <ul id="doctor-patient-list">{patients}</ul>;
 }

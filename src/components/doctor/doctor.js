@@ -39,12 +39,11 @@ export default function Doctor() {
         <h2 id="doctor-container-header">Patients</h2>
 
         <div id="doctor-item-header">
-          <span>Name</span>
-          <span>Email</span>
-          {/* <span>Phone</span> */}
-          <span>Age</span>
-          <span>Sex</span>
-          <span>B.M.I</span>
+          <span className="doctor-item-name">Name</span>
+          <span className="doctor-item-email">Email</span>
+          <span className="doctor-item-age">Age</span>
+          <span className="doctor-item-sex">Sex</span>
+          <span className="doctor-item-bmi">B.M.I</span>
         </div>
         <DoctorList />
         <div id="doctor-list-footer">
