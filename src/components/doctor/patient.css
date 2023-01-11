@@ -15,7 +15,7 @@
 }
 
 #doctor-header {
-  background-color: aqua;
+  background-color: #30ba8f;
   width: 18%;
   justify-content: space-between;
 }
@@ -91,7 +91,7 @@
   border: thin solid transparent;
   height: 60%;
   width: 40%;
-  background-color: aqua;
+  background-color: #30ba8f;
   border-radius: 4vw;
   font-size: 1vw;
 }
@@ -134,7 +134,7 @@
 }
 
 #doctor-search > input {
-  border: thin solid aqua;
+  border: thin solid #30ba8f;
   font-size: 1.3vw;
   width: 75%;
   height: 75%;
@@ -147,10 +147,10 @@ input:focus {
 
 #doctor-search > button {
   width: 25%;
-  border: thin solid aqua;
+  border: thin solid #30ba8f;
   height: 80%;
   font-size: 1.3vw;
-  background-color: aqua;
+  background-color: #30ba8f;
 }
 
 .doctor-list {
@@ -181,7 +181,7 @@ input:focus {
 .doctor-item-image {
   width: 5%;
   border-radius: 50%;
-  background-color: aqua;
+  background-color: #30ba8f;
 }
 
 .doctor-item-image > img {
@@ -253,7 +253,7 @@ input:focus {
 
 .doctor-nav {
   border: thin solid transparent;
-  background-color: aqua;
+  background-color: #30ba8f;
   height: 70%;
   width: 10%;
   font-size: 1.3vw;
@@ -491,8 +491,8 @@ input:focus {
   width: 20%;
   height: 4vw;
   margin-left: 27vw;
-  border: thin solid aqua;
-  background-color: aqua;
+  border: thin solid #30ba8f;
+  background-color: #30ba8f;
   display: flex;
   flex-direction: row;
   align-items: center;
