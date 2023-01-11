@@ -27,8 +27,19 @@ export default function Services() {
             <p className="doctor-card-par">Dentist</p>
             <button>Read More</button>
           </span>
-          <span className="doctor-card"></span>
-          <span className="doctor-card"></span>
+          <span className="doctor-card">
+            <img className="doctor-card-image" src="" alt="doctor" />
+            <h5 className="doctor-card-doc">Dr. Sarah Smith</h5>
+            <p className="doctor-card-par">Dentist</p>
+            <button>Read More</button>
+          </span>
+          
+          <span className="doctor-card">
+            <img className="doctor-card-image" src="" alt="doctor" />
+            <h5 className="doctor-card-doc">Dr. Sarah Smith</h5>
+            <p className="doctor-card-par">Dentist</p>
+            <button>Read More</button>
+          </span>
         </div>
 
         <div className="services-footer">

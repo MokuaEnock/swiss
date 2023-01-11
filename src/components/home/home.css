@@ -30,9 +30,9 @@
   justify-content: space-evenly;
 }
 
-.services * {
+/* .services * {
   border: thin solid black;
-}
+} */
 
 .services-header {
   width: 30%;
@@ -109,7 +109,11 @@
   width: 60%;
   font-size: 1.3vw;
   border-radius: 5vw;
+  background-color: white;
+  color: #30ba8f;
+  border: thin solid transparent;
 }
+
 .testimonials {
   width: 100%;
   display: flex;
