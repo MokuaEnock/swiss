@@ -29,7 +29,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: #30ba8f;
+  background-color: #0E3386;
 }
 
 #header-container {
@@ -71,13 +71,13 @@ header {
   align-items: center;
   text-decoration: none;
   background-color: white;
-  color: #30ba8f;
+  color: #0E3386;
 }
 
 #header-logo {
   width: 20%;
   background-color: white;
-  color: #30ba8f;
+  color: #0E3386;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -100,7 +100,7 @@ footer {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #30ba8f;
+  background-color: #0E3386;
 }
 
 footer * {
@@ -155,14 +155,14 @@ footer > div {
   font-size: 1vw;
   height: 70%;
   color: black;
-  border: thin solid #30ba8f;
+  border: thin solid #0E3386;
 }
 
 #letter-form > button {
   width: 30%;
   font-size: 1.3vw;
   height: 70%;
-  background-color: #30ba8f;
+  background-color: #0E3386;
   border: white thin solid;
 }
 

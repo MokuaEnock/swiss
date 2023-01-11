@@ -25,7 +25,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  color: #30ba8f;
+  color: #0E3386;
 }
 
 strong {
@@ -45,7 +45,7 @@ strong {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #30ba8f;
+  background-color: #0E3386;
   color: white;
   border-radius: 4vw;
 }
@@ -60,7 +60,7 @@ strong {
 
 .services-header {
   width: 30%;
-  color: #30ba8f;
+  color: #0E3386;
   height: 3vw;
   font-size: 2vw;
   display: flex;
@@ -80,7 +80,7 @@ strong {
 
 .services-card {
   height: 90%;
-  background-color: #30ba8f;
+  background-color: #0E3386;
   width: 20%;
   display: flex;
   flex-direction: column;
@@ -106,7 +106,7 @@ strong {
 
 .doctor-card {
   height: 95%;
-  background-color: #30ba8f;
+  background-color: #0E3386;
   width: 22%;
   display: flex;
   flex-direction: column;
@@ -143,7 +143,7 @@ strong {
   font-size: 1.3vw;
   border-radius: 5vw;
   background-color: white;
-  color: #30ba8f;
+  color: #0E3386;
   border: thin solid transparent;
 }
 
@@ -196,7 +196,7 @@ strong {
 
 .test-cards-image > img {
   height: 6vw;
-  background-color: #30ba8f;
+  background-color: #0E3386;
   width: 6vw;
   font-size: 1vw;
   border-radius: 50%;
