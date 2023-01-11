@@ -97,11 +97,19 @@
 
 .doctor-card-doc {
   height: 10%;
+  font-size: 1.1vw;
+  color: white;
 }
 
 .doctor-card-par {
   height: 10%;
-  font-size: 1.2vw;
+  font-size: 0.9vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .doctor-card > button,
