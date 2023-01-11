@@ -10,7 +10,7 @@ export default function DoctorList() {
         className="doctor-patient"
         key={e.id}
         onClick={() => {
-          navigate(`/doctor/${e.id}`);
+          navigate(`${e.id}`);
         }}
       >
         <span className="doctor-item-name">{e.name}</span>
