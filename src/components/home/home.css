@@ -87,9 +87,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
+.doctor-card-image {
+  height: 50%;
+  width: 90%;
+}
+
+.doctor-card-doc {
+  height: 10%;
+}
+
+.doctor-card-par {
+  height: 10%;
+  font-size: 1.2vw;
+}
+
+.doctor-card > button {
+  height: 12%;
+  width: 60%;
+  font-size: 1.3vw;
+  border-radius: 5vw;
+}
 .testimonials {
   width: 100%;
   display: flex;

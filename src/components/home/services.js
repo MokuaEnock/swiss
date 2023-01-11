@@ -23,8 +23,8 @@ export default function Services() {
         <div className="services-container">
           <span className="doctor-card">
             <img className="doctor-card-image" src="" alt="doctor" />
-            <p className="doctor-crad-doc"></p>
-            <p className="doctor-crad-par"></p>
+            <h5 className="doctor-card-doc">Dr. Sarah Smith</h5>
+            <p className="doctor-card-par">Dentist</p>
             <button>Read More</button>
           </span>
           <span className="doctor-card"></span>
