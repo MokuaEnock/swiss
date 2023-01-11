@@ -92,7 +92,6 @@
 
 .testimonials {
   width: 100%;
-  /* height: 25vw; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -142,6 +141,7 @@
   height: 6vw;
   background-color: #30ba8f;
   width: 6vw;
+  font-size: 1vw;
   border-radius: 50%;
 }
 
@@ -156,4 +156,8 @@
 
 .test-cards-rating {
   height: 15%;
+}
+
+.test-cards-rating > img {
+  font-size: 1vw;
 }
