@@ -47,6 +47,11 @@
   justify-content: flex-start;
 }
 
+#doctor-container > * {
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+}
+
 #doctor-container-header {
   width: 100%;
   height: 3vw;
@@ -56,4 +61,23 @@
   align-items: center;
   justify-content: center;
   background-color: aqua;
+}
+
+#doctor-item-header {
+  width: 100%;
+  height: 3vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#doctor-item-header > span {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.3vw;
+  justify-content: center;
 }

@@ -40,7 +40,8 @@ export default function Doctor() {
 
         <div id="doctor-item-header">
           <span>Name</span>
-          <span>Contact</span>
+          <span>Email</span>
+          {/* <span>Phone</span> */}
           <span>Age</span>
           <span>Sex</span>
           <span>B.M.I</span>
