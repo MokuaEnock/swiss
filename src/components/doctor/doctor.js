@@ -46,6 +46,7 @@ export default function Doctor() {
           <span className="doctor-item-bmi">B.M.I</span>
         </div>
         <DoctorList />
+        
         <div id="doctor-list-footer">
           <button id="doctor-back" className="doctor-nav">
             Back
