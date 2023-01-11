@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Patientsdata } from "../../data";
 import React from "react";
 import DoctorList from "./doctorlist";
@@ -30,13 +30,10 @@ export default function Doctor() {
 
   return (
     <main id="doctor">
-      {/* <header id="doctor-header">
-        <span id="doctor-logo">Swiss Medicare</span>
-        <span className="doctor-links">Home</span>
-        <span className="doctor-links">Patients</span>
-        <span className="doctor-links">Profile</span>
-        <span id="doctor-logout">Log Out</span>
-      </header> */}
+      <span id="doctor-header">
+        <Link to="doctor/search">Search</Link>
+        <Link to="doctor/home">Home</Link>
+      </span>
 
       <section id="doctor-section">
         <div id="doctor-stats">
