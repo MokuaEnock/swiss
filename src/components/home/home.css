@@ -1,16 +1,11 @@
 .main-section {
   width: 100%;
   height: 30vw;
-  border: thin solid black;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
-
-/* .main-section * {
-  border: thin solid black;
-} */
 
 .main-section-cont {
   width: 50%;
