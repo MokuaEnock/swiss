@@ -4,7 +4,16 @@ export default function Footer() {
   return (
     <footer>
       <div>
-        <div className="footer-header"></div>
+        <div className="footer-header">
+          <span id="letter-header">
+            <h4>Stay up to date</h4>
+            <p>Subscribe to our weekly newspaper and get notified instatly.</p>
+          </span>
+          <form id="letter-form">
+            <input></input>
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
         <div className="footer-container">
           <span className="footer-span">
             <img src="" alt="logo" id="footer-image" />

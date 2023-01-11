@@ -120,6 +120,51 @@ footer > div {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  border: thin solid black;
+}
+
+#letter-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+  font-size: 1vw;
+}
+
+#letter-header > h4 {
+  font-size: 1.3vw;
+}
+
+#letter-header > p {
+  font-size: 1vw;
+}
+
+#letter-form {
+  width: 30%;
+  height: 100%;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#letter-form > input {
+  width: 70%;
+  height: 70%;
+  color: black;
+  border: thin solid #30ba8f;
+}
+
+#letter-form > button {
+  width: 30%;
+  font-size: 1.3vw;
+  height: 70%;
+
+  background-color: #30ba8f;
+  border: white thin solid;
 }
 
 .footer-container {
