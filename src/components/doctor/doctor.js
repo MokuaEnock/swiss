@@ -6,8 +6,8 @@ export default function Doctor() {
   return (
     <main id="doctor">
       <span id="doctor-header">
-        <Link to="search">Search</Link>
-        <Link to="home">Home</Link>
+        <Link to="/doctor/search">Search</Link>
+        <Link to="/doctor/list">Home</Link>
       </span>
 
       <section id="doctor-container">

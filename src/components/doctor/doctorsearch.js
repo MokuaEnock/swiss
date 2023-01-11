@@ -1,3 +1,5 @@
+import "./patient.css";
+
 export default function DoctorSearch() {
-  return <main>Doctor search</main>;
+  return <section id="doctor-search">Doctor search</section>;
 }

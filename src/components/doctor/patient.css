@@ -136,3 +136,9 @@ li {
   border: thin solid transparent;
   color: white;
 }
+
+#doctor-search {
+  width: 100%;
+  height: 60vw;
+  background-color: darkmagenta;
+}

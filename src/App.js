@@ -23,10 +23,10 @@ function App() {
         <Route path="/admin" element={<Admin />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/doctor" element={<Doctor />}>
-          <Route path=":id" element={<DoctorView />} />
+        <Route path="doctor" element={<Doctor />}>
           <Route path="search" element={<DoctorSearch />} />
           <Route path="list" element={<DoctorList />} />
+          <Route path=":id" element={<DoctorView />} />
         </Route>
       </Routes>
 
