@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { Patientsdata } from "../../data";
 import React from "react";
+import DoctorList from "./doctorlist";
 
 export default function Doctor() {
   let navigate = useNavigate();
@@ -72,9 +73,7 @@ export default function Doctor() {
               <button type="submit">Submit</button>
             </form>
           </span>
-
-          <ul className="doctor-list">{patients}</ul>
-
+          <DoctorList />
           <div id="doctor-list-footer">
             <button id="doctor-back" className="doctor-nav">
               Back
