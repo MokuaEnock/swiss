@@ -35,24 +35,17 @@ export default function Doctor() {
         <Link to="doctor/home">Home</Link>
       </span>
 
-      <section id="doctor-section">
-        <div id="doctor-container">
-          <span id="doctor-container-header">
-            <h2 id="doctor-title">Patients</h2>
-            <form id="doctor-search">
-              <input type="text" placeholder="search ..." />
-              <button type="submit">Submit</button>
-            </form>
-          </span>
-          <DoctorList />
-          <div id="doctor-list-footer">
-            <button id="doctor-back" className="doctor-nav">
-              Back
-            </button>
-            <button id="doctor-next" className="doctor-nav">
-              Next
-            </button>
-          </div>
+      <section id="doctor-container">
+        <h2 id="doctor-container-header">Patients</h2>
+
+        <DoctorList />
+        <div id="doctor-list-footer">
+          <button id="doctor-back" className="doctor-nav">
+            Back
+          </button>
+          <button id="doctor-next" className="doctor-nav">
+            Next
+          </button>
         </div>
       </section>
 
