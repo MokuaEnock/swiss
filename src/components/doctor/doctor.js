@@ -38,6 +38,13 @@ export default function Doctor() {
       <section id="doctor-container">
         <h2 id="doctor-container-header">Patients</h2>
 
+        <div id="doctor-item-header">
+          <span>Name</span>
+          <span>Contact</span>
+          <span>Age</span>
+          <span>Sex</span>
+          <span>B.M.I</span>
+        </div>
         <DoctorList />
         <div id="doctor-list-footer">
           <button id="doctor-back" className="doctor-nav">
