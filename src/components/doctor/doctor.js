@@ -1,7 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
 import React from "react";
 import DoctorList from "./doctorlist";
-import LandingImage from ""
 
 export default function Doctor() {
   return (

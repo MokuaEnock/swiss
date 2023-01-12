@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import LandingImage from "../images/landing.png";
+
 import "./home.css";
 
 export default function MainSection() {
@@ -17,12 +19,12 @@ export default function MainSection() {
         </Link>
 
         <span>
-          <img src="#" alt="home" />
+          <img src="" alt="home" />
         </span>
       </div>
-      
+
       <div className="main-section-cont" id="main-section-cont-image">
-        <img src="#" alt="doctor" />
+        <img src={LandingImage} alt="doctor" />
       </div>
     </section>
   );
