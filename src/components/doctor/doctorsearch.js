@@ -10,7 +10,7 @@ export default function DoctorSearch() {
   }
   return (
     <section id="doctor-search">
-      <form id="doctor-search-form">
+      <form id="doctor-search-form" onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="Search patient"
