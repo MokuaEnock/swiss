@@ -261,6 +261,8 @@ strong {
   opacity: 0.5;
 }
 
-#services-image {
+.doctor-card-image1 {
+  width: 100%;
   background-color: white;
+  height: 60%;
 }

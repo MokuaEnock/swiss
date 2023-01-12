@@ -2,6 +2,9 @@ import "./home.css";
 import Sect1 from "../images/tooth2.png";
 import Sect2 from "../images/tooth3.png";
 import Sect3 from "../images/steth4.png";
+import Doc1 from "../images/doc1.png";
+import Doc2 from "../images/doc2.png";
+import Doc3 from "../images/doc3.png";
 
 export default function Services() {
   return (
@@ -55,20 +58,20 @@ export default function Services() {
         <div className="services-container">
           <span className="doctor-card">
             <img
-              className="doctor-card-image"
+              className="doctor-card-image1"
               id="service-image"
-              src=""
+              src={Doc1}
               alt="doctor"
             />
-            <h5 className="doctor-card-doc">Dr. Sarah Smith</h5>
+            <h5 className="doctor-card-doc">Dr. Tuco Salamanca</h5>
             <p className="doctor-card-par">Dentist</p>
             <button>Read More</button>
           </span>
           <span className="doctor-card">
             <img
-              className="doctor-card-image"
+              className="doctor-card-image1"
               id="service-image"
-              src=""
+              src={Doc2}
               alt="doctor"
             />
             <h5 className="doctor-card-doc">Dr. Sarah Smith</h5>
@@ -78,12 +81,12 @@ export default function Services() {
 
           <span className="doctor-card">
             <img
-              className="doctor-card-image"
+              className="doctor-card-image1"
               id="service-image"
-              src=""
+              src={Doc3}
               alt="doctor"
             />
-            <h5 className="doctor-card-doc">Dr. Sarah Smith</h5>
+            <h5 className="doctor-card-doc">Dr. Steal Your Man</h5>
             <p className="doctor-card-par">Dentist</p>
             <button>Read More</button>
           </span>
