@@ -4,8 +4,9 @@ import { useState } from "react";
 export default function DoctorSearch() {
   let [search, setSearch] = useState("");
 
-  function handleSubmit(){
-    
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log(search);
   }
   return (
     <section id="doctor-search">
