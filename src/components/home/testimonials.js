@@ -1,3 +1,6 @@
+import Rev1 from "../images/rev1.png";
+import Rev2 from "../images/rev2.png";
+
 export default function Testimonials() {
   return (
     <section className="testimonials">
@@ -5,7 +8,7 @@ export default function Testimonials() {
       <div className="test-conts">
         <span className="test-cards">
           <span className="test-cards-image">
-            <img src="" alt="profile" />
+            <img src={Rev1} alt="profile" />
           </span>
           <span className="test-cards-review">
             <p>
@@ -16,12 +19,12 @@ export default function Testimonials() {
             </p>
           </span>
           <span className="test-cards-rating">
-            <img src="" alt="rating" />
+            <i>Mark Okumu</i>
           </span>
         </span>
         <span className="test-cards">
           <span className="test-cards-image">
-            <img src="" alt="profile" />
+            <img src={Rev2} alt="profile" />
           </span>
           <span className="test-cards-review">
             <p>
@@ -32,7 +35,7 @@ export default function Testimonials() {
             </p>
           </span>
           <span className="test-cards-rating">
-            <img src="" alt="rating" />
+            <i>Sheilah Chukua</i>
           </span>
         </span>
       </div>
