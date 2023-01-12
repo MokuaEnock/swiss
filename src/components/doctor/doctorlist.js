@@ -22,5 +22,25 @@ export default function DoctorList() {
     );
   });
 
-  return <ul id="doctor-patient-list">{patients}</ul>;
+  return (
+    <>
+      <h2 id="doctor-container-header">Patients</h2>
+      <div id="doctor-item-header">
+        <span className="doctor-item-name">Name</span>
+        <span className="doctor-item-email">Email</span>
+        <span className="doctor-item-age">Age</span>
+        <span className="doctor-item-sex">Sex</span>
+        <span className="doctor-item-bmi">B.M.I</span>
+      </div>
+      <ul id="doctor-patient-list">{patients}</ul>;
+      <div id="doctor-list-footer">
+        <button id="doctor-back" className="doctor-nav">
+          Back
+        </button>
+        <button id="doctor-next" className="doctor-nav">
+          Next
+        </button>
+      </div>
+    </>
+  );
 }

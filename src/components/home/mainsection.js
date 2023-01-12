@@ -13,8 +13,6 @@ export default function MainSection() {
           <strong>Swiss Medicare</strong>
         </h2>
 
-        <p>Your health is our concern.</p>
-
         <Link to="/signup" className="main-section-cont-button">
           Join Us
         </Link>
