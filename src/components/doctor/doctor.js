@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import React from "react";
 import DoctorList from "./doctorlist";
 
@@ -30,6 +30,8 @@ export default function Doctor() {
             Next
           </button>
         </div>
+
+        <Outlet />
       </section>
 
       <aside id="doctor-aside"></aside>
