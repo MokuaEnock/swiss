@@ -1,8 +1,18 @@
 import { useNavigate } from "react-router-dom";
 import { Patientsdata } from "../../data";
+import { useState, useEffect } from "react";
 
 export default function DoctorList() {
   let navigate = useNavigate();
+  let [pats, setPats] = useState("");
+
+  useEffect(() => {
+    fetch("https://example.com/data")
+      .then((response) => response.json())
+      .then((data) => setPats(data));
+  }, []);
+
+  console.log(pats);
 
   let patients = Patientsdata.map((e) => {
     return (
