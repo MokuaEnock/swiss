@@ -24,11 +24,11 @@ export default function DoctorList() {
   }, []);
   console.log(data[1]);
 
-  function Age(a, b) {
-    let date1 = new Date("2010-01-01");
-    let date2 = new Date("2020-01-01");
-    let diffInYears = date2.getFullYear() - date1.getFullYear();
-    return diffInYears;
+  function Age(a) {
+    let birthDate = moment(a);
+    let today = moment();
+    let currentAge = today.diff(birthDate, "years");
+    return currentAge;
   }
 
   // let patients = data.map((e) => {
@@ -79,7 +79,7 @@ export default function DoctorList() {
             >
               <span className="doctor-item-name">{e.first_name}</span>
               <span className="doctor-item-email">{e.email}</span>
-              <span className="doctor-item-age">{e.date_of_birth}</span>
+              <span className="doctor-item-age">{Age(e.date_of_birth)}</span>
               <span className="doctor-item-sex">Male</span>
               <span className="doctor-item-bmi">19</span>
             </li>
