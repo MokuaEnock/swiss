@@ -260,3 +260,7 @@ strong {
   height: 80%;
   opacity: 0.5;
 }
+
+#services-image {
+  background-color: white;
+}
