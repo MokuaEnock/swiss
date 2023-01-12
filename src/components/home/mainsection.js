@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 import LandingImage from "../images/landing.png";
-import Sect1 from "../images/tooth2.png"
-import Sect2 from "../images/tooth3.png"
-import Sect3 from "../images/steth4.png"
+
 import SmallLanding from "../images/smallLanding.png";
 import "./home.css";
 

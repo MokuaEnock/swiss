@@ -80,12 +80,19 @@ strong {
 
 .services-card {
   height: 90%;
-  background-color: #0e3386;
+  background-color: white;
   width: 20%;
   display: flex;
   flex-direction: column;
+  color: #0e3386;
   align-items: center;
   justify-content: space-evenly;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.services-card > p,
+.services-card > h5 {
+  color: #0e3386;
 }
 
 .services-footer {
@@ -95,6 +102,16 @@ strong {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.services-card > button {
+  height: 12%;
+  width: 60%;
+  font-size: 1.3vw;
+  border-radius: 5vw;
+  border: thin solid transparent;
+  color: white;
+  background-color: #0e3386;
 }
 
 .services-footer-span {
@@ -115,8 +132,8 @@ strong {
 }
 
 .doctor-card-image {
-  height: 50%;
-  width: 90%;
+  /* height: 50%; */
+  width: 50%;
 }
 
 .doctor-card-doc {
@@ -136,8 +153,7 @@ strong {
   text-align: center;
 }
 
-.doctor-card > button,
-.services-card > button {
+.doctor-card > button {
   height: 12%;
   width: 60%;
   font-size: 1.3vw;
@@ -242,5 +258,5 @@ strong {
 
 #small-container > img {
   height: 80%;
-  opacity: .5;
+  opacity: 0.5;
 }

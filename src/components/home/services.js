@@ -1,4 +1,7 @@
 import "./home.css";
+import Sect1 from "../images/tooth2.png";
+import Sect2 from "../images/tooth3.png";
+import Sect3 from "../images/steth4.png";
 
 export default function Services() {
   return (
@@ -7,7 +10,7 @@ export default function Services() {
         <h3 className="services-header">Services</h3>
         <div className="services-container">
           <span className="services-card">
-            <img className="doctor-card-image" src="" alt="doctor" />
+            <img className="doctor-card-image" src={Sect3} alt="doctor" />
             <h5 className="doctor-card-doc">Skilled Nurses</h5>
             <p className="doctor-card-par">
               Caring is what they were born to do
@@ -16,7 +19,7 @@ export default function Services() {
           </span>
 
           <span className="services-card">
-            <img className="doctor-card-image" src="" alt="doctor" />
+            <img className="doctor-card-image" src={Sect1} alt="doctor" />
             <h5 className="doctor-card-doc">Eye Care</h5>
             <p className="doctor-card-par">
               Improved vision for an improved life.
@@ -24,7 +27,7 @@ export default function Services() {
             <button>Read More</button>
           </span>
           <span className="services-card">
-            <img className="doctor-card-image" src="" alt="doctor" />
+            <img className="doctor-card-image" src={Sect2} alt="doctor" />
             <h5 className="doctor-card-doc">Dental Care</h5>
             <p className="doctor-card-par">
               You are never fully dressed without a smile.
@@ -32,7 +35,7 @@ export default function Services() {
             <button>Read More</button>
           </span>
           <span className="services-card">
-            <img className="doctor-card-image" src="" alt="doctor" />
+            <img className="doctor-card-image" src={Sect3} alt="doctor" />
             <h5 className="doctor-card-doc">Primary Care</h5>
             <p className="doctor-card-par">
               Inspiring better health working for your better health
