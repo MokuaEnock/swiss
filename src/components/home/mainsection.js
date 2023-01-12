@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import LandingImage from "../images/landing.png";
-
+import SmallLanding from "../images/smallLanding.png";
 import "./home.css";
 
 export default function MainSection() {
@@ -18,8 +18,8 @@ export default function MainSection() {
           Join Us
         </Link>
 
-        <span>
-          <img src="" alt="home" />
+        <span id="small-container">
+          <img src={SmallLanding} alt="home" />
         </span>
       </div>
 
