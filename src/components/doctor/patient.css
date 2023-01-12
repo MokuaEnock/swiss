@@ -24,7 +24,7 @@
   margin-left: 0.5vw;
   font-size: 1.3vw;
   text-decoration: none;
-  color: #0E3386;
+  color: #0e3386;
   height: 90%;
   display: flex;
   flex-direction: row;
@@ -55,12 +55,12 @@ li:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: #0E3386;
+  color: #0e3386;
 }
 
 #doctor-item-header {
   width: 100%;
-  background-color: #0E3386;
+  background-color: #0e3386;
   color: white;
   height: 3vw;
   display: flex;
@@ -137,7 +137,7 @@ li {
   height: 80%;
   margin-left: 1vw;
   font-size: 1.3vw;
-  background-color: #0E3386;
+  background-color: #0e3386;
   border: thin solid transparent;
   color: white;
 }
@@ -145,5 +145,51 @@ li {
 #doctor-search {
   width: 100%;
   height: 60vw;
-  background-color: darkmagenta;
+}
+
+#doctor-search * {
+  border: thin solid #0e3386;
+}
+
+#doctor-search-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 5vw;
+}
+
+/* #doctor-search-form > * {
+  height: 4vw;
+} */
+
+#doctor-search-form > input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 30%;
+  height: 4vw;
+  border-top-left-radius: 5vw;
+  border-bottom-left-radius: 5vw;
+  justify-content: center;
+  text-align: center;
+  border: thin solid #0e3386;
+}
+#doctor-search-form > button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 4.2vw;
+  width: 10%;
+  background-color: #0e3386;
+  color: white;
+  border-top-right-radius: 5vw;
+  border-bottom-right-radius: 5vw;
+  justify-content: center;
+  text-align: center;
+  border: thin solid #0e3386;
+}
+
+#doctor-search-form > input:focus {
+  outline: none;
 }
