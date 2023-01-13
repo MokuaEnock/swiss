@@ -86,7 +86,7 @@ export default function DoctorList() {
           );
         })}
       </ul>
-      ;
+      &nbsp;
       <div id="doctor-list-footer">
         <button id="doctor-back" className="doctor-nav">
           Back
