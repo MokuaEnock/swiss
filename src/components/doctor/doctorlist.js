@@ -22,7 +22,6 @@ export default function DoctorList() {
     };
     fetchData();
   }, []);
-  console.log(data[1]);
 
   function Age(a) {
     let birthDate = moment(a);
