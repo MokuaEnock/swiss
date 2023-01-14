@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Auth from "../images/login.jpg";
-import { useState, useEffect } from "react";
+import { useState} from "react";
 
 export default function Signup() {
   let [name, setName] = useState("");

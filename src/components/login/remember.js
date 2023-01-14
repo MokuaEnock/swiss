@@ -1,7 +1,12 @@
 import Auth from "../images/login.jpg";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export default function Remember() {
+  let [email, setEmail] = useState("");
+  let [password, setPassword] = useState("");
+  let [passwordC, setPasswordC] = useState("");
+
   return (
     <main className="auth-container">
       <div className="auth-image">
@@ -9,13 +14,27 @@ export default function Remember() {
       </div>
       <form className="authentication">
         <h3>Forgot your password</h3>
-        <input type="email" placeholder="Your email" className="form-input" />
+        <input
+          type="email"
+          placeholder="Your email"
+          className="form-input"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
         <input
           type="password"
           placeholder="Password"
           className="form-input"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
         />
-        <input type="password" placeholder="Confirm Password" className="form-input" />
+        <input
+          type="password"
+          placeholder="Confirm Password"
+          className="form-input"
+          value={passwordC}
+          onChange={(e) => setPasswordC(e.target.value)}
+        />
         <Link to="" className="form-links">
           Forgot Password
         </Link>
