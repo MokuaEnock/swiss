@@ -14,6 +14,7 @@ export default function Signup() {
 
   function handleSubmit(e) {
     e.preventDefault();
+    console.log(name, email, password, passwordC);
   }
   return (
     <main className="auth-container">
