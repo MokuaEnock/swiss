@@ -7,7 +7,7 @@
 }
 
 .auth-container * {
-  border: thin solid black;
+  /* border: thin solid black; */
   font-size: 1.3vw;
 }
 
@@ -27,7 +27,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .authentication > * {
@@ -36,6 +36,7 @@
 }
 
 .authentication > h3 {
+  margin-top: -0.5vw;
   width: 100%;
   height: 10%;
   font-size: 1.8vw;
@@ -50,7 +51,6 @@
 .form-buttons {
   width: 80%;
   height: 7%;
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -60,6 +60,7 @@
 .form-buttons > button {
   background-color: #0e3386;
   color: white;
+  border: thin solid #0e3386;
 }
 
 .form-input {
@@ -69,6 +70,9 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  border-radius: 5vw;
+  color: #0e3386;
+  border: thin solid #0e3386;
 }
 
 .submit-button {
@@ -77,6 +81,7 @@
   background-color: #0e3386;
   color: white;
   border-radius: 4vw;
+  border: thin solid #0e3386;
 }
 
 .form-buttons > * {
@@ -88,4 +93,13 @@
 .form-buttons > button:active {
   background-color: blue;
   color: white;
+}
+
+input:focus {
+  outline: thin solid #0e3386;
+}
+
+.form-links {
+  text-decoration: none;
+  color: #0e3386;
 }

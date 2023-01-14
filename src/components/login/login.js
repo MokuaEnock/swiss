@@ -8,11 +8,17 @@ export default function Login() {
       <div className="auth-image"></div>
       <form className="authentication">
         <h3>Login to Swiss Medicare</h3>
-        <input type="text" placeholder="Username" />
-        <input type="password" placeholder="Password" />
-        <Link to="">Forgot Password</Link>
-        <button type="submit">Submit</button>
-        <Link to="/signup">No account join us?</Link>
+        <input type="text" placeholder="Username" className="form-input" />
+        <input type="password" placeholder="Password" className="form-input" />
+        <Link to="" className="form-links">
+          Forgot Password
+        </Link>
+        <button type="submit" className="submit-button">
+          Submit
+        </button>
+        <Link to="/signup" className="form-links">
+          No account join us?
+        </Link>
       </form>
     </main>
   );

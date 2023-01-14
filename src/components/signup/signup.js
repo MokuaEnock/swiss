@@ -25,7 +25,9 @@ export default function Signup() {
         <button type="submit" className="submit-button">
           Submit
         </button>
-        <Link to="/login">Have an account: Login?</Link>
+        <Link to="/login" className="form-links">
+          Have an account?
+        </Link>
       </form>
     </main>
   );
