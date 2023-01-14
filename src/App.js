@@ -11,6 +11,7 @@ import DoctorSearch from "./components/doctor/doctorsearch";
 import DoctorList from "./components/doctor/doctorlist";
 import Header from "./components/header";
 import Footer from "./components/aside";
+import Remember from "./components/login/remember";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/patient" element={<Patient />} />
         <Route path="/admin" element={<Admin />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/remember" element={<Remember />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="doctor" element={<Doctor />}>
           <Route path="search" element={<DoctorSearch />} />

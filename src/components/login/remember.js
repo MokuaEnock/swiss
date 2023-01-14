@@ -1,9 +1,7 @@
-import "./auth.css";
-import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import Auth from "../images/login.jpg";
+import { Link } from "react-router-dom";
 
-export default function Login() {
+export default function Remember() {
   return (
     <main className="auth-container">
       <div className="auth-image">
@@ -11,7 +9,6 @@ export default function Login() {
       </div>
       <form className="authentication">
         <h3>Welcome Back</h3>
-        <p>Sign in to acces your account</p>
         <input type="text" placeholder="Username" className="form-input" />
         <input type="password" placeholder="Password" className="form-input" />
         <Link to="" className="form-links">

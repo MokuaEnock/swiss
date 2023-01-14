@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Auth from "../images/login.jpg";
 
 export default function Signup() {
   function handleFormButtons(e) {
@@ -6,7 +7,9 @@ export default function Signup() {
   }
   return (
     <main className="auth-container">
-      <div className="auth-image"></div>
+      <div className="auth-image">
+        <img src={Auth} alt="authentication" />
+      </div>
       <form className="authentication">
         <h3>Get started.</h3>
         <span className="form-buttons">
