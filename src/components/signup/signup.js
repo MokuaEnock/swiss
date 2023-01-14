@@ -11,12 +11,16 @@ export default function Signup() {
   function handleFormButtons(e) {
     e.preventDefault();
   }
+
+  function handleSubmit(e) {
+    e.preventDefault();
+  }
   return (
     <main className="auth-container">
       <div className="auth-image">
         <img src={Auth} alt="authentication" />
       </div>
-      <form className="authentication">
+      <form className="authentication" onSubmit={handleSubmit}>
         <h3>Get started.</h3>
         <span className="form-buttons">
           <button onClick={handleFormButtons}>Patient</button>
