@@ -35,6 +35,10 @@
   margin-bottom: 0.5vw;
 }
 
+.auth-image > img {
+  width: 100%;
+}
+
 .authentication > h3 {
   margin-top: -0.5vw;
   width: 100%;
