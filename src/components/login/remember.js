@@ -8,8 +8,13 @@ export default function Remember() {
         <img src={Auth} alt="authentication" />
       </div>
       <form className="authentication">
-        <h3>Welcome Back</h3>
-        <input type="text" placeholder="Username" className="form-input" />
+        <h3>Forgot your password</h3>
+        <input type="email" placeholder="Your email" className="form-input" />
+        <input
+          type="password"
+          placeholder="New password"
+          className="form-input"
+        />
         <input type="password" placeholder="Password" className="form-input" />
         <Link to="" className="form-links">
           Forgot Password

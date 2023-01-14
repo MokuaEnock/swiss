@@ -14,7 +14,7 @@ export default function Login() {
         <p>Sign in to acces your account</p>
         <input type="text" placeholder="Username" className="form-input" />
         <input type="password" placeholder="Password" className="form-input" />
-        <Link to="" className="form-links">
+        <Link to="/remember" className="form-links">
           Forgot Password
         </Link>
         <button type="submit" className="submit-button">
