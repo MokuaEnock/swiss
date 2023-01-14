@@ -8,6 +8,7 @@
 
 .auth-container * {
   border: thin solid black;
+  font-size: 1.3vw;
 }
 
 .auth-image {
