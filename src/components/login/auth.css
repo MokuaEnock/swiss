@@ -31,8 +31,8 @@
 }
 
 .authentication > * {
-  margin-top: .5vw;
-  margin-bottom: .5vw;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
 }
 
 .authentication > h3 {
@@ -48,12 +48,35 @@
 }
 
 .form-buttons {
-  width: 70%;
-  height: 5%;
+  width: 80%;
+  height: 7%;
+
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.form-buttons > button {
+  background-color: #0e3386;
+  color: white;
+}
+
+.form-input {
+  height: 6%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.submit-button {
+  width: 80%;
+  height: 6%;
+  background-color: #0e3386;
+  color: white;
+  border-radius: 4vw;
 }
 
 .form-buttons > * {

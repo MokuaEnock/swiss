@@ -11,14 +11,20 @@ export default function Signup() {
         <h3>Get started.</h3>
         <span className="form-buttons">
           <button onClick={handleFormButtons}>Patient</button>
-          <button onClick={handleFormButtons}>Patient</button>
-          <button onClick={handleFormButtons}>Patient</button>
+          <button onClick={handleFormButtons}>Doctor</button>
+          <button onClick={handleFormButtons}>Admin</button>
         </span>
-        <input type="text" placeholder="Username" />
-        <input type="text" placeholder="Email" />
-        <input type="password" placeholder="Password" />
-        <input type="password" placeholder="Password Confirmation" />
-        <button type="submit">Submit</button>
+        <input type="text" placeholder="Username" className="form-input" />
+        <input type="text" placeholder="Email" className="form-input" />
+        <input type="password" placeholder="Password" className="form-input" />
+        <input
+          type="password"
+          placeholder="Password Confirmation"
+          className="form-input"
+        />
+        <button type="submit" className="submit-button">
+          Submit
+        </button>
         <Link to="/login">Have an account: Login?</Link>
       </form>
     </main>
