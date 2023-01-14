@@ -28,3 +28,13 @@
   align-items: center;
   justify-content: center;
 }
+
+.authentication > * {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.authentication > span {
+  width: 70%;
+  height: 12%;
+}
