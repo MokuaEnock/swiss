@@ -44,8 +44,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #0e3386;
-  color: white;
+  color: #0e3386;
 }
 
 .form-buttons {
@@ -79,6 +78,7 @@
   width: 80%;
   height: 6%;
   background-color: #0e3386;
+  cursor: pointer;
   color: white;
   border-radius: 4vw;
   border: thin solid #0e3386;

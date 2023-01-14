@@ -1,13 +1,16 @@
 import "./auth.css";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Auth from "../images/login.jpg";
 
 export default function Login() {
   return (
     <main className="auth-container">
-      <div className="auth-image"></div>
+      <div className="auth-image">
+        <img src={Auth} alt="authentication" />
+      </div>
       <form className="authentication">
-        <h3>Login to Swiss Medicare</h3>
+        <h3>Login</h3>
         <input type="text" placeholder="Username" className="form-input" />
         <input type="password" placeholder="Password" className="form-input" />
         <Link to="" className="form-links">
