@@ -7,12 +7,17 @@ export default function Remember() {
   let [password, setPassword] = useState("");
   let [passwordC, setPasswordC] = useState("");
 
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log(email, password, passwordC);
+  }
+
   return (
     <main className="auth-container">
       <div className="auth-image">
         <img src={Auth} alt="authentication" />
       </div>
-      <form className="authentication">
+      <form className="authentication" onSubmit={handleSubmit}>
         <h3>Forgot your password</h3>
         <input
           type="email"
