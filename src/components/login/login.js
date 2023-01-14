@@ -11,7 +11,6 @@ export default function Login() {
       </div>
       <form className="authentication">
         <h3>Welcome Back</h3>
-        <p>Sign in to acces your account</p>
         <input type="text" placeholder="Username" className="form-input" />
         <input type="password" placeholder="Password" className="form-input" />
         <Link to="/remember" className="form-links">

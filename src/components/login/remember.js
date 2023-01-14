@@ -12,10 +12,10 @@ export default function Remember() {
         <input type="email" placeholder="Your email" className="form-input" />
         <input
           type="password"
-          placeholder="New password"
+          placeholder="Password"
           className="form-input"
         />
-        <input type="password" placeholder="Password" className="form-input" />
+        <input type="password" placeholder="Confirm Password" className="form-input" />
         <Link to="" className="form-links">
           Forgot Password
         </Link>

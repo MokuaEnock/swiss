@@ -1,7 +1,13 @@
 import { Link } from "react-router-dom";
 import Auth from "../images/login.jpg";
+import { useState, useEffect } from "react";
 
 export default function Signup() {
+  let [name, setName] = useState("");
+  let [email, setEmail] = useState("");
+  let [password, setPassword] = useState("");
+  let [passwordC, setPasswordC] = useState("");
+
   function handleFormButtons(e) {
     e.preventDefault();
   }
@@ -17,13 +23,33 @@ export default function Signup() {
           <button onClick={handleFormButtons}>Doctor</button>
           <button onClick={handleFormButtons}>Admin</button>
         </span>
-        <input type="text" placeholder="Username" className="form-input" />
-        <input type="text" placeholder="Email" className="form-input" />
-        <input type="password" placeholder="Password" className="form-input" />
+        <input
+          type="text"
+          placeholder="Username"
+          className="form-input"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+        <input
+          type="text"
+          placeholder="Email"
+          className="form-input"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+        <input
+          type="password"
+          placeholder="Password"
+          className="form-input"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
         <input
           type="password"
           placeholder="Password Confirmation"
           className="form-input"
+          value={passwordC}
+          onChange={(e) => setPasswordC(e.target.value)}
         />
         <button type="submit" className="submit-button">
           Submit
